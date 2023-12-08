@@ -1,0 +1,9 @@
+services:
+  web:
+    build: ./frontend
+    ports:
+      - "8000:5000"
+  backendcontainer:
+    build: ./backend
+  mymongodatabase:
+    image: "mongo"

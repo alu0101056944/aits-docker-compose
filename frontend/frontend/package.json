@@ -1,0 +1,31 @@
+{
+  "name": "sytwc-sass",
+  "version": "1.2.0",
+  "description": "Contains Sass exercises and a mockup webpage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "sass --watch public/styles/:public/styles/",
+    "serve": "node web-server/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alu0101056944/sytwc-sass.git"
+  },
+  "keywords": [
+    "sass",
+    "sytwc"
+  ],
+  "author": "Marcos Barrios",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alu0101056944/sytwc-sass/issues"
+  },
+  "homepage": "https://github.com/alu0101056944/sytwc-sass#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nocache": "^4.0.0"
+  },
+  "type": "module"
+}
