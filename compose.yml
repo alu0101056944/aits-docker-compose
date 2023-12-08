@@ -8,4 +8,8 @@ services:
     ports:
       - "8080:8080"
   mymongodatabase:
-    image: "mongo"
+    build: ./database
+    environment:
+     MONGO-INITDB-DATABASE: maindatabase
+    ports:
+     - "8083:27017"
